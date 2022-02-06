@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  padding: 10px;
+
+  background-color: gray;
+
+  &__links {
+    a {
+      text-decoration: none;
+
+      color: black;
+
+      padding: 5px 10px;
+      &.active {
+        color: white;
+        background-color: green;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  button {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Montserrat";
+}
+
+.app {
+  background-color: aliceblue;
+  margin: 0 auto;
+  max-width: 1140px;
+
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/fonts/Montserrat-Regular.ttf");
+}
