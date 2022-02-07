@@ -1,4 +1,4 @@
-.nav {
+.header {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -7,7 +7,7 @@
 
   background-color: gray;
 
-  &__links {
+  &__nav {
     a {
       text-decoration: none;
 
