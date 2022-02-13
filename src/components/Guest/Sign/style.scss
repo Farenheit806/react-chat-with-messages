@@ -19,5 +19,12 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    .name {
+      display: flex;
+      gap: 10px;
+    }
+    .submit-btn {
+      background-color: red;
+    }
   }
 }

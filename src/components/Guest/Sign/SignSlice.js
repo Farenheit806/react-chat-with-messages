@@ -5,6 +5,7 @@ export const signSlice = createSlice({
   initialState: {
     isAuthed: false,
     isShown: false,
+    isSignUp: false,
   },
   reducers: {
     setIsAuthed: (state) => {
@@ -14,12 +15,16 @@ export const signSlice = createSlice({
     setIsShown: (state) => {
       state.isShown = !state.isShown;
     },
+    setIsSignUp: (state) => {
+      state.isSignUp = !state.isSignUp;
+    },
   },
 });
 
-export const { setIsAuthed, setIsShown } = signSlice.actions;
+export const { setIsAuthed, setIsShown, setIsSignUp } = signSlice.actions;
 
 export const selectIsAuthed = (state) => state.sign.isAuthed;
 export const selectIsShown = (state) => state.sign.isShown;
+export const selectIsSignUp = (state) => state.sign.isSignUp;
 
 export default signSlice.reducer;
